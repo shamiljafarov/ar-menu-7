@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@import '@fontsource-variable/bodoni-moda';
+@import '@fontsource-variable/hanken-grotesk';
+
+@theme {
+  --color-background: #0a0908;
+  --color-surface: #141210;
+  --color-on-surface: #ece6da;
+  --color-primary: #e8c17d;
+  --color-primary-container: #b08d4f;
+  --color-on-primary-container: #3b2800;
+  --color-muted: #d1c5b5;
+  --color-outline: #9a8f80;
+
+  --font-sans: 'Hanken Grotesk', system-ui, sans-serif;
+  --font-display: 'Bodoni Moda', Georgia, serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background ;
+  }
+}
