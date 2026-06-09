@@ -19,4 +19,22 @@ export const DISHES: Dish[] = [
     available: true,
     featured: true,
   },
+  {
+  id: 'burger',
+  name: 'Burger',
+  description: 'Mal əti kotleti, çeddar, marul və pomidor.',
+  price: 13,
+  currency: '₼',
+  categoryId: 'mains',   
+  image: '/images/burger.jpg',
+  model: {
+    glb: '/models/burger.glb',
+    usdz: '/models/burger.usdz',
+    poster: '/images/burger.jpg',
+  },
+  video: '/videos/burger.mp4',
+  ingredients: [],
+  available: true,
+  featured: false,
+},
 ];
