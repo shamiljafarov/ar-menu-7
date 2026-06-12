@@ -50,7 +50,7 @@ export const DISHES: Dish[] = [
     usdz: '/models/tort.usdz',
     poster: '/images/tort.jpg',
   },
-  // video: '/videos/tort.mp4',     // videosu varsa aç, yoxdursa bu sətri sil
+  video: '/videos/tort.MOV',
   ingredients: [],
   available: true,
   featured: false,
